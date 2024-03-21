@@ -83,7 +83,6 @@ nav h2:nth-last-child(2) {
 #content {
     width: 100%;
     height: 100%;
-    background-color: chocolate;
     position: relative;
 }
 
@@ -477,7 +476,6 @@ nav h2:nth-last-child(2) {
 #movie-p1 {
     width: 50%;
     height: 100%;
-    background-color: darkgoldenrod;
 }
 #movie-p1 img{
     width: 100%;
