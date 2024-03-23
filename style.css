@@ -61,14 +61,14 @@ nav h2 {
     word-spacing: 1px;
 }
 
-nav h2:nth-last-child(1) {
+nav h2:nth-last-child(2) {
     width: 18%;
     border: none;
     font-size: 2vw;
     /* background-color: coral; */
 }
 
-nav h2:nth-last-child(2) {
+nav h2:nth-last-child(3) {
     width: 25%;
 }
 
@@ -658,7 +658,6 @@ footer h3 {
     display: flex;
     align-items: center;
     padding-left: 4vw;
-    border-right: 2px solid black;
     font-size: 1.4vw;
     font-weight: 500;
     word-spacing: 1px;
@@ -705,4 +704,336 @@ footer h3 {
 #page {
     width: 100%;
     height: 30px;
+}
+
+nav h3 {
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    nav {
+        margin-top: 15px;
+        height: 6vh;
+        padding: 0 4vw;
+        border-top: 1.7px solid black;
+        border-bottom: 1.7px solid black;
+    }
+
+    nav h1 {
+        font-size: 4.2vw;
+        width: 50%;
+        justify-content: start;
+    }
+
+    nav h2 {
+        display: none;
+    }
+
+    nav h3 {
+        display: block;
+        font-size: 4vw;
+    }
+
+    
+    #center {
+        height: 40%;
+    }
+    
+    #overlay {
+        height: fit-content;
+    }
+    
+    #overlay-part1 h1{
+        font-size: 4.5vw;
+    }
+
+    #overlay-part1 h2{
+        font-size: 2.2vw;
+        border: 1px solid white;
+    }
+    
+    #overlay-part2 {
+        padding: 1.5vw 0;
+    }
+    
+    #overlay-part2 h4{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    
+    #overlay-part2 img {
+        height: 5.5vw;
+    }
+    
+    #scroll {
+        height: 14vh;
+        /* background-color: rgb(94, 38, 150); */
+    }
+    
+    .container img {
+        width: 18vw;
+        height: 18vw;
+        padding: 1.1vw;
+    }
+
+
+    #alphabet {
+        height: 6vh;
+        /* background-color: aquamarine; */
+        gap: 0.4vw;
+        overflow-x: auto;
+        border-top: 1.5px solid black;
+        border-bottom: 1.5px solid black;
+    }
+    #alphabet::-webkit-scrollbar {
+        display: none;
+    }
+
+    #alphabet h1 {
+        font-size: 2.7vw;
+        border-bottom: 1.8px solid rgb(65, 65, 65);
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+
+    #alphabet h2 {
+        font-size: 2.1vw;
+        padding: 0.6vw 1.1vw;
+    }
+    
+    #gallery {
+        width: 100%;
+        height: 40%;
+    }
+
+    #gallery-part2 {
+        width: 42%;
+        height: 100%;
+    }
+
+    #gallery-img {
+        height: 80%;
+    }
+
+    #gallery-text {
+        height: 20%;
+        padding-top: 0.5vw;
+    }
+
+    #gallery-text h2 {
+        font-size: 2vw;
+        width: 40%;
+    }
+    #gallery-text h5 {
+        width: 50%;
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+        font-weight: 400;
+    }
+    
+    #shot {
+        margin: 3vw 0;
+        height: 40%;
+    }
+
+    #shot-part1 h1 {
+        font-size: 3vw;
+        letter-spacing: 2px;
+    }
+
+    #shot-part1 h5 {
+        width: 100%;
+        font-size: 1.8vw;
+        line-height: 2.3vw;
+    }
+
+    #updates {
+        height: 56%;
+        padding: 17vw 4vw 4vw 4vw;
+        /* background-color: cornflowerblue; */
+    }
+
+    #updates>h1 {
+        font-size: 3.5vw;
+        letter-spacing: 2px;
+        margin-bottom: 3vh;
+    }
+
+    .up-elem {
+        height: 9.5vh;
+        border-top: 1px solid black;
+    }
+    .up-elem:nth-last-child(1) {
+        border-bottom: 1px solid black;
+    }
+    .elem-text{
+        width: 48%;
+        /* background-color: rgb(165, 255, 127); */
+    }
+
+    .elem-text h1 {
+        font-size: 3.5vw;
+    }
+
+    .elem-text h5 {
+        font-weight: 500;
+        font-size: 1.3vw;
+        letter-spacing: 1px;
+    }
+    .up-elem img {
+        width: 11vw;
+        height: 10vw;
+        left: 18%;
+    }
+    .up-elem:nth-child(2n) img {
+        left: 26%;
+    }
+    .up-elem:nth-child(2n):hover img {
+        left: 18%;
+    }
+
+    .up-elem h4 {
+        font-size: 1.6vw;
+    }
+    
+    #movie-shot {
+        height: 38%;
+    }
+
+    #movie-p1 {
+        width: 50%;
+    }
+
+    #movie-p2 {
+        width: 47%;
+    }
+
+    #movie-p2 h1 {
+        font-size: 3.5vw;
+        letter-spacing: 2px;
+    }
+    #movie-p2 h3 {
+        font-size: 1.8vw;
+        line-height: 2.3vw;
+    }
+
+    #movie-p2 h5 {
+        font-size: 1.3vw;
+        font-weight: 400;
+        line-height: 1.9vw;
+    }
+
+    #movie-shot-img {
+        height: 50%;
+    }
+
+    #infinite-text {
+        /* background-color: cornflowerblue; */
+        height: 12%;
+    }
+
+    #marque {
+        height: 30%;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        /* background-color: darksalmon; */
+    }
+
+    #marque h1{
+        font-size: 3.2vw;
+        -webkit-text-stroke: 0.8px rgb(32, 32, 32);
+    }
+
+    @keyframes marqueAnimation {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-100% - 68px));
+        }
+    }
+
+    #blog {
+        height: 30%;
+    }
+
+    #blog>h1 {
+        font-size: 3.5vw;
+        letter-spacing: 2px;
+    }
+
+    .upper-part {
+        height: 30%;
+        line-height: 2.4vw;
+    }
+
+    .upper-part h5 {
+        font-size: 1.5vw;
+        padding: 0.2vw 1.1vw;
+        height: fit-content;
+        border: 1px solid black;
+    }
+
+    .upper-part h4 {
+        font-size: 1.7vw;
+        font-weight: 500;
+    }
+
+    .lower-part {
+        height: 70%;
+    }
+    
+    footer {
+        height: 12%;
+        margin-top: 8vw;
+        border-top: 1.5px solid black;
+        border-bottom: 1.5px solid black;
+    }
+
+
+    footer h1 {
+        font-size: 3.5vw;
+        letter-spacing: -1px;
+        /* background-color: crimson; */
+    }
+    footer h2 {
+        border-right: 1px solid black;
+        font-size: 1.7vw;
+        font-weight: 500;
+        word-spacing: 1px;
+    }
+
+    footer h3 {
+        padding-left: 3vw;
+        font-size: 1.7vw;
+        font-weight: 500;
+        word-spacing: 1px;
+        border-bottom: 1px solid black;
+    }
+
+    #footer-box1 {
+        border-right: 1px solid black;
+    }
+    #footer-box2 {
+        border-right: 1px solid black;
+    }
+
+    #socials {
+        padding-left: 3vw;
+    }
+
+    #social-icon i{
+        font-size: 2.8vw;
+    }
+
+    #socials h5 {
+        font-size: 1.4vw;
+        font-weight: 400;
+        width: 70%;
+    }
+
+    #page {
+        height: 15px;
+    }
 }
