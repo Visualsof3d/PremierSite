@@ -724,6 +724,7 @@ nav h3 {
         font-size: 4.5vw;
         width: 50%;
         justify-content: start;
+        letter-spacing: -1px;
     }
 
     nav h2 {
@@ -855,7 +856,7 @@ nav h3 {
     }
 
     #updates {
-        height: 59%;
+        height: 60%;
         padding: 17vw 4vw 4vw 4vw;
         /* background-color: cornflowerblue; */
     }
@@ -888,8 +889,8 @@ nav h3 {
         letter-spacing: 1px;
     }
     .up-elem img {
-        width: 11vw;
-        height: 10vw;
+        width: 12vw;
+        height: 11vw;
         left: 18%;
     }
     .up-elem:nth-child(2n) img {
@@ -937,7 +938,7 @@ nav h3 {
 
     #infinite-text {
         /* background-color: cornflowerblue; */
-        height: 12%;
+        height: 14%;
     }
 
     #marque {
@@ -949,7 +950,7 @@ nav h3 {
 
     #marque h1{
         font-size: 3.2vw;
-        -webkit-text-stroke: 0.6px rgb(32, 32, 32);
+        -webkit-text-stroke: 0.5px rgb(32, 32, 32);
     }
 
     @keyframes marqueAnimation {
