@@ -716,12 +716,12 @@ nav h3 {
         margin-top: 15px;
         height: 6vh;
         padding: 0 4vw;
-        border-top: 1.7px solid black;
-        border-bottom: 1.7px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
     }
 
     nav h1 {
-        font-size: 4.2vw;
+        font-size: 4.5vw;
         width: 50%;
         justify-content: start;
     }
@@ -737,7 +737,7 @@ nav h3 {
 
     
     #center {
-        height: 40%;
+        height: 42%;
     }
     
     #overlay {
@@ -755,8 +755,10 @@ nav h3 {
     
     #overlay-part2 {
         padding: 1.5vw 0;
+        border-top: 1.5px solid white;
+        padding: 1vw 0;
     }
-    
+
     #overlay-part2 h4{
         font-size: 2vw;
         font-weight: 500;
@@ -783,8 +785,8 @@ nav h3 {
         /* background-color: aquamarine; */
         gap: 0.4vw;
         overflow-x: auto;
-        border-top: 1.5px solid black;
-        border-bottom: 1.5px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
     }
     #alphabet::-webkit-scrollbar {
         display: none;
@@ -792,7 +794,7 @@ nav h3 {
 
     #alphabet h1 {
         font-size: 2.7vw;
-        border-bottom: 1.8px solid rgb(65, 65, 65);
+        border-bottom: 1px solid black;
         font-weight: 600;
         letter-spacing: 5px;
     }
@@ -837,8 +839,12 @@ nav h3 {
         height: 40%;
     }
 
+    #shot-part1 {
+        width: 45%;
+    }
+
     #shot-part1 h1 {
-        font-size: 3vw;
+        font-size: 3.3vw;
         letter-spacing: 2px;
     }
 
@@ -849,7 +855,7 @@ nav h3 {
     }
 
     #updates {
-        height: 56%;
+        height: 59%;
         padding: 17vw 4vw 4vw 4vw;
         /* background-color: cornflowerblue; */
     }
@@ -914,12 +920,13 @@ nav h3 {
         letter-spacing: 2px;
     }
     #movie-p2 h3 {
-        font-size: 1.8vw;
+        font-size: 1.9vw;
         line-height: 2.3vw;
+        width: 60%;
     }
 
     #movie-p2 h5 {
-        font-size: 1.3vw;
+        font-size: 1.4vw;
         font-weight: 400;
         line-height: 1.9vw;
     }
@@ -942,7 +949,7 @@ nav h3 {
 
     #marque h1{
         font-size: 3.2vw;
-        -webkit-text-stroke: 0.8px rgb(32, 32, 32);
+        -webkit-text-stroke: 0.6px rgb(32, 32, 32);
     }
 
     @keyframes marqueAnimation {
@@ -972,7 +979,7 @@ nav h3 {
         font-size: 1.5vw;
         padding: 0.2vw 1.1vw;
         height: fit-content;
-        border: 1px solid black;
+        border: 0.5px solid black;
     }
 
     .upper-part h4 {
@@ -987,8 +994,8 @@ nav h3 {
     footer {
         height: 12%;
         margin-top: 8vw;
-        border-top: 1.5px solid black;
-        border-bottom: 1.5px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
     }
 
 
